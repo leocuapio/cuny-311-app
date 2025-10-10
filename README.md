@@ -1,23 +1,20 @@
-Absolutely 👍 — here’s your **copy-paste-ready** version of the full `README.md` rewritten for your CUNY 311 App.
-Everything is properly formatted for Markdown — just copy it and replace your current file contents.
-
----
-
-````md
 # 🏙️ CUNY 311 App
 
 ## 📌 Overview
-The **CUNY 311 App** is a full-stack web platform that helps **CUNY students, staff, and faculty** report campus issues quickly and easily.  
+
+The **CUNY 311 App** is a full-stack web platform that helps **CUNY students, staff, and faculty** report campus issues quickly and easily.
 Users can file complaints **anonymously** or **with contact info**, while administrators can review, filter, export, and mark complaints as resolved from a dashboard.
 
 ---
 
 ## 🚧 Problem Statement
-Campus issues like **broken sinks, AC failures, Wi-Fi outages, or safety concerns** are often reported through slow, inconsistent channels.  
+
+Campus issues like **broken sinks, AC failures, Wi-Fi outages, or safety concerns** are often reported through slow, inconsistent channels.
 This leads to:
-- Delays in fixing problems  
-- Poor accountability and tracking  
-- Student frustration  
+
+* Delays in fixing problems
+* Poor accountability and tracking
+* Student frustration
 
 The **CUNY 311 App** provides one consistent, digital channel for reporting, reviewing, and resolving issues across all CUNY campuses.
 
@@ -26,49 +23,53 @@ The **CUNY 311 App** provides one consistent, digital channel for reporting, rev
 ## 🎯 MVP Scope
 
 ### User-Facing Features
-- Campus picker (Hunter, Baruch, Brooklyn, Queens, CCNY, etc.)
-- Category selection (Facilities, Technology, Safety, Harassment, Help Desk, Other)
-- Anonymous or named submission
-- Optional name/email fields
-- Success banner after submission
+
+* Campus picker (Hunter, Baruch, Brooklyn, Queens, CCNY, etc.)
+* Category selection (Facilities, Technology, Safety, Harassment, Help Desk, Other)
+* Anonymous or named submission
+* Optional name/email fields
+* Success banner after submission
 
 ### Admin-Facing Features
-- Dashboard with all submitted complaints
-- Filter by campus, category, or status
-- Mark as **Open** or **Resolved**
-- Export complaints as CSV
-- Search complaints by keyword
+
+* Dashboard with all submitted complaints
+* Filter by campus, category, or status
+* Mark as **Open** or **Resolved**
+* Export complaints as CSV
+* Search complaints by keyword
 
 ---
 
 ## 🧩 Technical Architecture
 
-| Layer | Technology | Purpose |
-|-------|-------------|----------|
-| **Frontend** | React (Vite) + TypeScript + Tailwind CSS | Modern, modular UI |
-| **Backend** | Node.js + Express | REST API for complaints |
-| **Storage** | JSON file (MVP) → SQLite (Phase 2) | Local persistence, future migration |
-| **Testing** | Vitest (unit), Playwright (optional E2E) | Reliability checks |
-| **Deployment** | Frontend → Vercel / Netlify<br>Backend → Render / Railway | Cloud hosting |
-| **Docs** | `/docs/ADR/`, `/docs/standups/`, `/docs/roadmap.md` | Team documentation |
+| Layer          | Technology                                                | Purpose                             |
+| -------------- | --------------------------------------------------------- | ----------------------------------- |
+| **Frontend**   | React (Vite) + TypeScript + Tailwind CSS                  | Modern, modular UI                  |
+| **Backend**    | Node.js + Express                                         | REST API for complaints             |
+| **Storage**    | JSON file (MVP) → SQLite (Phase 2)                        | Local persistence, future migration |
+| **Testing**    | Vitest (unit), Playwright (optional E2E)                  | Reliability checks                  |
+| **Deployment** | Frontend → Vercel / Netlify<br>Backend → Render / Railway | Cloud hosting                       |
+| **Docs**       | `/docs/ADR/`, `/docs/standups/`, `/docs/roadmap.md`       | Team documentation                  |
 
 ---
 
 ## 🧠 Prerequisites
-- Node.js 18 or newer  
-- npm 9 or newer  
-- GitHub account with Codespaces enabled  
-- Basic React + TypeScript knowledge  
+
+* Node.js 18 or newer
+* npm 9 or newer
+* GitHub account with Codespaces enabled
+* Basic React + TypeScript knowledge
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/<your-username>/cuny-311-app.git
 cd cuny-311-app
-````
+```
 
 ### 2️⃣ Install dependencies
 
@@ -146,9 +147,4 @@ npm run dev
 This project is open-source and maintained by **CUNY 311 App Team 2025**
 for educational and portfolio purposes under the **MIT License**.
 
-```
-
 ---
-
-Would you like me to also make a **short “Demo Section”** (with placeholders for screenshots or a demo link) to add right under the *Overview* once your UI is polished?
-```
